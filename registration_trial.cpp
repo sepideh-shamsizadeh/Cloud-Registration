@@ -30,9 +30,5 @@ int main(int argc, char *argv[]) {
   registration.save_merged_cloud(argv[4]);
   std::cout<<"fitness: "<<result.fitness_<<std::endl;
   std::cout<<"inlier_rmse: "<<result.inlier_rmse_<<std::endl;
-
-
-
- 
   return 0;
 }
